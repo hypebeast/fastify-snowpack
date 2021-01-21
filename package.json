@@ -1,0 +1,22 @@
+{
+  "name": "fastify-snowpack",
+  "version": "0.1.0",
+  "description": "Snowpack integration for Fastify",
+  "main": "plugin.js",
+  "dependencies": {
+    "fastify-plugin": "^3.0.0",
+    "snowpack": "^3.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "fastify": "^3.10.1",
+    "fastify-static": "^3.4.0",
+    "prettier": "2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Ruml <sebastian@sebastianruml.name>",
+  "license": "MIT"
+}
